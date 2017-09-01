@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WebTest,Firefox 55.0,,2017-08-21 14:30:40,2017-08-21 14:32:14,1m - 34.253s,FAILED
+,,,,,,
+Test Cases/launch,Firefox 55.0,launch paytm,2017-08-21 14:30:43,2017-08-21 14:32:02,1m - 19.280s,FAILED
+openBrowser,Firefox 55.0,,2017-08-21 14:30:45,2017-08-21 14:31:43,57.500s,PASSED
+navigateToUrl,Firefox 55.0,,2017-08-21 14:31:43,2017-08-21 14:32:02,19.073s,FAILED

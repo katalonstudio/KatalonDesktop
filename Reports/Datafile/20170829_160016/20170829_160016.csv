@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Datafile,Chrome 60.0.3112.101,from other\r\n files,2017-08-29 16:00:18,2017-08-29 16:04:45,4m - 26.522s,PASSED
+,,,,,,
+Test Cases/launch - Iteration 1,Chrome 60.0.3112.101,launch paytm,2017-08-29 16:00:18,2017-08-29 16:02:17,1m - 59.008s,PASSED
+openBrowser,Chrome 60.0.3112.101,,2017-08-29 16:00:19,2017-08-29 16:00:25,5.464s,PASSED
+"Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue(""Mobile"", 2)",Chrome 60.0.3112.101,,2017-08-29 16:00:25,2017-08-29 16:00:25,0.881s,PASSED
+maximizeWindow,Chrome 60.0.3112.101,,2017-08-29 16:00:25,2017-08-29 16:00:27,1.524s,PASSED
+navigateToUrl,Chrome 60.0.3112.101,,2017-08-29 16:00:27,2017-08-29 16:02:12,1m - 44.933s,PASSED
+setText,Chrome 60.0.3112.101,,2017-08-29 16:02:12,2017-08-29 16:02:13,1.293s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-29 16:02:13,2017-08-29 16:02:15,1.408s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-29 16:02:15,2017-08-29 16:02:15,0.305s,PASSED
+verifyTextPresent,Chrome 60.0.3112.101,,2017-08-29 16:02:15,2017-08-29 16:02:16,0.581s,PASSED
+closeBrowser,Chrome 60.0.3112.101,,2017-08-29 16:02:16,2017-08-29 16:02:17,1.945s,PASSED
+,,,,,,
+Test Cases/launch - Iteration 2,Chrome 60.0.3112.101,launch paytm,2017-08-29 16:02:18,2017-08-29 16:04:45,2m - 27.034s,PASSED
+openBrowser,Chrome 60.0.3112.101,,2017-08-29 16:02:18,2017-08-29 16:02:21,3.879s,PASSED
+"Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue(""Mobile"", 2)",Chrome 60.0.3112.101,,2017-08-29 16:02:21,2017-08-29 16:02:22,0.070s,PASSED
+maximizeWindow,Chrome 60.0.3112.101,,2017-08-29 16:02:22,2017-08-29 16:02:23,1.431s,PASSED
+navigateToUrl,Chrome 60.0.3112.101,,2017-08-29 16:02:23,2017-08-29 16:04:41,2m - 17.675s,PASSED
+setText,Chrome 60.0.3112.101,,2017-08-29 16:04:41,2017-08-29 16:04:41,0.392s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-29 16:04:41,2017-08-29 16:04:42,1.370s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-29 16:04:42,2017-08-29 16:04:43,0.266s,PASSED
+verifyTextPresent,Chrome 60.0.3112.101,,2017-08-29 16:04:43,2017-08-29 16:04:43,0.541s,PASSED
+closeBrowser,Chrome 60.0.3112.101,,2017-08-29 16:04:43,2017-08-29 16:04:45,1.322s,PASSED

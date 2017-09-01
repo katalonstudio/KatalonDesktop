@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Datafile,Firefox 55.0,from other\r\n files,2017-08-29 16:21:05,2017-08-29 16:29:54,8m - 48.989s,PASSED
+,,,,,,
+Test Cases/launch - Iteration 1,Firefox 55.0,launch paytm,2017-08-29 16:21:06,2017-08-29 16:26:50,5m - 44.303s,PASSED
+openBrowser,Firefox 55.0,,2017-08-29 16:21:07,2017-08-29 16:21:20,12.618s,PASSED
+"Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue(""Mobile"", 2)",Firefox 55.0,,2017-08-29 16:21:20,2017-08-29 16:21:22,2.548s,PASSED
+navigateToUrl,Firefox 55.0,,2017-08-29 16:21:22,2017-08-29 16:24:19,2m - 56.820s,PASSED
+waitForPageLoad,Firefox 55.0,,2017-08-29 16:24:19,2017-08-29 16:24:22,2.979s,PASSED
+setText,Firefox 55.0,,2017-08-29 16:24:22,2017-08-29 16:24:24,2.263s,PASSED
+click,Firefox 55.0,,2017-08-29 16:24:24,2017-08-29 16:26:42,2m - 17.885s,PASSED
+click,Firefox 55.0,,2017-08-29 16:26:42,2017-08-29 16:26:43,0.999s,PASSED
+verifyTextPresent,Firefox 55.0,,2017-08-29 16:26:43,2017-08-29 16:26:47,4.448s,PASSED
+closeBrowser,Firefox 55.0,,2017-08-29 16:26:47,2017-08-29 16:26:50,2.565s,PASSED
+,,,,,,
+Test Cases/launch - Iteration 2,Firefox 55.0,launch paytm,2017-08-29 16:26:50,2017-08-29 16:29:54,3m - 3.621s,PASSED
+openBrowser,Firefox 55.0,,2017-08-29 16:26:50,2017-08-29 16:27:01,10.710s,PASSED
+"Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue(""Mobile"", 2)",Firefox 55.0,,2017-08-29 16:27:01,2017-08-29 16:27:01,0.155s,PASSED
+navigateToUrl,Firefox 55.0,,2017-08-29 16:27:01,2017-08-29 16:29:42,2m - 40.812s,PASSED
+waitForPageLoad,Firefox 55.0,,2017-08-29 16:29:42,2017-08-29 16:29:44,2.505s,PASSED
+setText,Firefox 55.0,,2017-08-29 16:29:44,2017-08-29 16:29:46,1.274s,PASSED
+click,Firefox 55.0,,2017-08-29 16:29:46,2017-08-29 16:29:48,2.568s,PASSED
+click,Firefox 55.0,,2017-08-29 16:29:48,2017-08-29 16:29:49,0.380s,PASSED
+verifyTextPresent,Firefox 55.0,,2017-08-29 16:29:49,2017-08-29 16:29:53,4.392s,PASSED
+closeBrowser,Firefox 55.0,,2017-08-29 16:29:53,2017-08-29 16:29:54,0.757s,PASSED

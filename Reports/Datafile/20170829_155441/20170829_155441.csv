@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Datafile,Chrome 60.0.3112.101,from other\r\n files,2017-08-29 15:54:43,2017-08-29 15:56:05,1m - 22.366s,FAILED
+,,,,,,
+Test Cases/launch - Iteration 1,Chrome 60.0.3112.101,launch paytm,2017-08-29 15:54:44,2017-08-29 15:55:49,1m - 5.282s,FAILED
+openBrowser,Chrome 60.0.3112.101,,2017-08-29 15:54:44,2017-08-29 15:55:49,1m - 4.585s,FAILED
+,,,,,,
+Test Cases/launch - Iteration 2,Chrome 60.0.3112.101,launch paytm,2017-08-29 15:55:49,2017-08-29 15:56:05,16.515s,PASSED
+openBrowser,Chrome 60.0.3112.101,,2017-08-29 15:55:49,2017-08-29 15:55:53,4.075s,PASSED
+"Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue(""Mobile"", 2)",Chrome 60.0.3112.101,,2017-08-29 15:55:53,2017-08-29 15:55:54,1.153s,PASSED
+maximizeWindow,Chrome 60.0.3112.101,,2017-08-29 15:55:54,2017-08-29 15:55:56,1.502s,PASSED
+navigateToUrl,Chrome 60.0.3112.101,,2017-08-29 15:55:56,2017-08-29 15:55:59,3.055s,PASSED
+setText,Chrome 60.0.3112.101,,2017-08-29 15:55:59,2017-08-29 15:56:01,2.486s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-29 15:56:01,2017-08-29 15:56:03,1.507s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-29 15:56:03,2017-08-29 15:56:03,0.456s,PASSED
+verifyTextPresent,Chrome 60.0.3112.101,,2017-08-29 15:56:03,2017-08-29 15:56:04,0.728s,PASSED
+closeBrowser,Chrome 60.0.3112.101,,2017-08-29 15:56:04,2017-08-29 15:56:05,1.545s,PASSED

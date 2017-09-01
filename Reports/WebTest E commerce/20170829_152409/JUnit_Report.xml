@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebTest E commerce" time="85" tests="1" failures="1" errors="0">
+   <testsuite name="WebTest E commerce" tests="1" failures="1" errors="0" time="85" timestamp="2017-08-29 15:24:18" hostname="Pratiush.Pratik - LTPBAN252219466.corp.mphasis.com" id="Test Suites/WebTest E commerce">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\WebTest E commerce\\20170829_152409"/>
+         <property name="logFiles" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\WebTest E commerce\\20170829_152409\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\WebTest E commerce\\20170829_152409\\1504000542032.png"/>
+         <property name="hostName" value="Pratiush.Pratik - LTPBAN252219466.corp.mphasis.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.7.2.1"/>
+         <property name="browser" value="Chrome 60.0.3112.101"/>
+         <property name="hostAddress" value="172.17.58.83"/>
+         <property name="sessionId" value="e095d87ebfe9b77f945d0b5d2eaabac8"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=MANUAL_CONFIG, proxyServerType=HTTP, password=TESTing31, proxyServerAddress=orrproxy.mphasis.com, proxyServerPort=8080}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/google" classname="Test Cases/google" status="PASSED">
+         <system-out><![CDATA[2017-08-29 15:24:19 - [TEST_CASE][PASSED] - Test Cases/google: Test Cases/google
+
+2017-08-29 15:24:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-29 15:24:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-29 15:24:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.google.co.in/?gws_rd=ssl' successfully
+
+2017-08-29 15:24:36 - [MESSAGE][PASSED] - Navigate to 'https://www.google.co.in/?gws_rd=ssl' successfully
+
+2017-08-29 15:24:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-08-29 15:24:38 - [MESSAGE][PASSED] - Current window maximized
+
+2017-08-29 15:24:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Google/input_q' is clicked on
+
+2017-08-29 15:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/input_q' is clicked on
+
+2017-08-29 15:24:38 - [TEST_STEP][PASSED] - sendKeys: Keys 'paytm' sent to object: 'Object Repository/Page_Google/input_q'
+
+2017-08-29 15:24:39 - [MESSAGE][PASSED] - Keys 'paytm' sent to object: 'Object Repository/Page_Google/input_q'
+
+2017-08-29 15:24:39 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Page_Google/input_q' is submitted
+
+2017-08-29 15:24:40 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Page_Google/input_q' is submitted
+
+2017-08-29 15:24:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_paytm - Google Search/a_Paytm.com  Digital  Utility' is clicked on
+
+2017-08-29 15:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_paytm - Google Search/a_Paytm.com  Digital  Utility' is clicked on
+
+2017-08-29 15:24:43 - [TEST_STEP][PASSED] - setText: Text '9620971262' is set on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/input'
+
+2017-08-29 15:25:19 - [MESSAGE][PASSED] - Text '9620971262' is set on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/input'
+
+2017-08-29 15:25:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/button_Proceed to Recharge' is clicked on
+
+2017-08-29 15:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/button_Proceed to Recharge' is clicked on
+
+2017-08-29 15:25:25 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Please enter an amount' is present on page  using regular expression
+
+2017-08-29 15:25:26 - [MESSAGE][PASSED] - Text 'Please enter an amount' is present on page  using regular expression
+
+2017-08-29 15:25:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-08-29 15:25:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/launch" classname="Test Cases/launch" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/div_Fast Forward' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 114 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'LTPBAN252219466', ip: '172.17.58.83', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\PRATIU~1.PRA\AppData\Local\Temp\scoped_dir8760_19934}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e095d87ebfe9b77f945d0b5d2eaabac8)"/>
+         <system-out><![CDATA[2017-08-29 15:25:28 - [TEST_CASE][FAILED] - Test Cases/launch: Test Cases/launch FAILED because (of) Unable to click on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/div_Fast Forward' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 114 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'LTPBAN252219466', ip: '172.17.58.83', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\PRATIU~1.PRA\AppData\Local\Temp\scoped_dir8760_19934}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e095d87ebfe9b77f945d0b5d2eaabac8)
+
+2017-08-29 15:25:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-29 15:25:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-29 15:25:32 - [TEST_STEP][PASSED] - Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue("Mobile", 2): Reading excel file with source file 'C:\Users\pratiush.pratik\Katalon Studio\TestDesktop\Data Files\TEST.xlsx' and sheet name 'Paytm'
+
+2017-08-29 15:25:34 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-08-29 15:25:36 - [MESSAGE][PASSED] - Current window maximized
+
+2017-08-29 15:25:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://paytm.com/' successfully
+
+2017-08-29 15:25:40 - [MESSAGE][PASSED] - Navigate to 'https://paytm.com/' successfully
+
+2017-08-29 15:25:40 - [TEST_STEP][PASSED] - setText: Text '9884656456' is set on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/input'
+
+2017-08-29 15:25:40 - [MESSAGE][PASSED] - Text '9884656456' is set on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/input'
+
+2017-08-29 15:25:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/div_Fast Forward' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 114 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'LTPBAN252219466', ip: '172.17.58.83', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\PRATIU~1.PRA\AppData\Local\Temp\scoped_dir8760_19934}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e095d87ebfe9b77f945d0b5d2eaabac8)
+
+2017-08-29 15:25:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/div_Fast Forward' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 114 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'LTPBAN252219466', ip: '172.17.58.83', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\PRATIU~1.PRA\AppData\Local\Temp\scoped_dir8760_19934}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e095d87ebfe9b77f945d0b5d2eaabac8)
+[[ATTACHMENT|C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\WebTest E commerce\\20170829_152409\\1504000542032.png]]]]></system-out>
+         <system-err><![CDATA[2017-08-29 15:25:28 - [TEST_CASE][FAILED] - Test Cases/launch: Test Cases/launch FAILED because (of) Unable to click on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/div_Fast Forward' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 114 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'LTPBAN252219466', ip: '172.17.58.83', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\PRATIU~1.PRA\AppData\Local\Temp\scoped_dir8760_19934}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e095d87ebfe9b77f945d0b5d2eaabac8)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-08-29 15:24:18 - [TEST_SUITE][FAILED] - WebTest E commerce: Test Cases/launch FAILED because (of) Unable to click on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/div_Fast Forward' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 114 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'LTPBAN252219466', ip: '172.17.58.83', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\PRATIU~1.PRA\AppData\Local\Temp\scoped_dir8760_19934}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e095d87ebfe9b77f945d0b5d2eaabac8)]]></system-out>
+      <system-err><![CDATA[2017-08-29 15:24:18 - [TEST_SUITE][FAILED] - WebTest E commerce: Test Cases/launch FAILED because (of) Unable to click on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/div_Fast Forward' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 114 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'LTPBAN252219466', ip: '172.17.58.83', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\PRATIU~1.PRA\AppData\Local\Temp\scoped_dir8760_19934}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e095d87ebfe9b77f945d0b5d2eaabac8)]]></system-err>
+   </testsuite>
+</testsuites>

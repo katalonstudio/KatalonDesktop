@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Datafile" time="32" tests="0" failures="0" errors="2">
+   <testsuite name="Datafile" tests="0" failures="0" errors="2" time="32" timestamp="2017-08-29 16:18:01" hostname="Pratiush.Pratik - LTPBAN252219466.corp.mphasis.com" id="Test Suites/Datafile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\Datafile\\20170829_161759"/>
+         <property name="logFiles" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\Datafile\\20170829_161759\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Pratiush.Pratik - LTPBAN252219466.corp.mphasis.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.7.2.1"/>
+         <property name="browser" value="Firefox 55.0"/>
+         <property name="hostAddress" value="172.17.58.83"/>
+         <property name="sessionId" value="6da6d45d-f99c-4884-8785-966ca9f558a0"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=MANUAL_CONFIG, proxyServerType=HTTP, password=TESTing31, proxyServerAddress=orrproxy.mphasis.com, proxyServerPort=8080}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/launch - Iteration 1" classname="Test Cases/launch" status="ERROR">
+         <error type="ERROR" message="Test Cases/launch FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow() is applicable for argument types: (java.lang.Integer) values: [10]
+Possible solutions: maximizeWindow(), maximizeWindow(com.kms.katalon.core.model.FailureHandling)"/>
+         <system-out><![CDATA[2017-08-29 16:18:02 - [TEST_CASE][ERROR] - Test Cases/launch - Iteration 1: Test Cases/launch FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow() is applicable for argument types: (java.lang.Integer) values: [10]
+Possible solutions: maximizeWindow(), maximizeWindow(com.kms.katalon.core.model.FailureHandling)
+
+2017-08-29 16:18:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-29 16:18:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-29 16:18:21 - [TEST_STEP][PASSED] - Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue("Mobile", 2): Reading excel file with source file 'C:\Users\pratiush.pratik\Katalon Studio\TestDesktop\Data Files\TEST.xlsx' and sheet name 'Paytm'
+
+2017-08-29 16:18:22 - [TEST_STEP][PASSED] - maximizeWindow: null]]></system-out>
+         <system-err><![CDATA[2017-08-29 16:18:02 - [TEST_CASE][ERROR] - Test Cases/launch - Iteration 1: Test Cases/launch FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow() is applicable for argument types: (java.lang.Integer) values: [10]
+Possible solutions: maximizeWindow(), maximizeWindow(com.kms.katalon.core.model.FailureHandling)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/launch - Iteration 2" classname="Test Cases/launch" status="ERROR">
+         <error type="ERROR" message="Test Cases/launch FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow() is applicable for argument types: (java.lang.Integer) values: [10]
+Possible solutions: maximizeWindow(), maximizeWindow(com.kms.katalon.core.model.FailureHandling)"/>
+         <system-out><![CDATA[2017-08-29 16:18:22 - [TEST_CASE][ERROR] - Test Cases/launch - Iteration 2: Test Cases/launch FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow() is applicable for argument types: (java.lang.Integer) values: [10]
+Possible solutions: maximizeWindow(), maximizeWindow(com.kms.katalon.core.model.FailureHandling)
+
+2017-08-29 16:18:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-29 16:18:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-08-29 16:18:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-29 16:18:32 - [TEST_STEP][PASSED] - Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue("Mobile", 2): Reading excel file with source file 'C:\Users\pratiush.pratik\Katalon Studio\TestDesktop\Data Files\TEST.xlsx' and sheet name 'Paytm'
+
+2017-08-29 16:18:33 - [TEST_STEP][PASSED] - maximizeWindow: null]]></system-out>
+         <system-err><![CDATA[2017-08-29 16:18:22 - [TEST_CASE][ERROR] - Test Cases/launch - Iteration 2: Test Cases/launch FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow() is applicable for argument types: (java.lang.Integer) values: [10]
+Possible solutions: maximizeWindow(), maximizeWindow(com.kms.katalon.core.model.FailureHandling)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-08-29 16:18:01 - [TEST_SUITE][ERROR] - Datafile: Test Cases/launch FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow() is applicable for argument types: (java.lang.Integer) values: [10]
+Possible solutions: maximizeWindow(), maximizeWindow(com.kms.katalon.core.model.FailureHandling)]]></system-out>
+      <system-err><![CDATA[2017-08-29 16:18:01 - [TEST_SUITE][ERROR] - Datafile: Test Cases/launch FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow() is applicable for argument types: (java.lang.Integer) values: [10]
+Possible solutions: maximizeWindow(), maximizeWindow(com.kms.katalon.core.model.FailureHandling)]]></system-err>
+   </testsuite>
+</testsuites>

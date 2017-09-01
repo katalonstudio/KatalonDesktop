@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Paytm.com  Digital  Utility</name>
+   <tag></tag>
+   <elementGuidId>0245c3ad-816f-4269-ab0b-9dfb572a39d3</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rso&quot;)/div[@class=&quot;_NId&quot;]/div[@class=&quot;g&quot;]/div[1]/div[1]/div[@class=&quot;rc&quot;]/h3[@class=&quot;r&quot;]/a[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onmousedown</name>
+      <type>Main</type>
+      <value>return rwt(this,'','','','1','AFQjCNEhUwr-AJVWtqC2sUOoeYCj-gm6eA','','0ahUKEwjok5Lt2-fVAhXKsI8KHcm6DlEQFgglMAA','','',event)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0ahUKEwjok5Lt2-fVAhXKsI8KHcm6DlEQFgglMAA&amp;url=https%3A%2F%2Fpaytm.com%2F&amp;usg=AFQjCNEhUwr-AJVWtqC2sUOoeYCj-gm6eA</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Paytm.com – Digital &amp; Utility Payment, Entertainment, Travel &amp; more ...</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-href</name>
+      <type>Main</type>
+      <value>https://paytm.com/</value>
+   </webElementProperties>
+</WebElementEntity>

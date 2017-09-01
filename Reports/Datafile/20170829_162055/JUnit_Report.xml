@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Datafile" time="528" tests="2" failures="0" errors="0">
+   <testsuite name="Datafile" tests="2" failures="0" errors="0" time="528" timestamp="2017-08-29 16:21:05" hostname="Pratiush.Pratik - LTPBAN252219466.corp.mphasis.com" id="Test Suites/Datafile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\Datafile\\20170829_162055"/>
+         <property name="logFiles" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\Datafile\\20170829_162055\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Pratiush.Pratik - LTPBAN252219466.corp.mphasis.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.7.2.1"/>
+         <property name="browser" value="Firefox 55.0"/>
+         <property name="hostAddress" value="172.17.58.83"/>
+         <property name="sessionId" value="93b2054b-57d1-4796-b965-cb74f11b3c1d"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=MANUAL_CONFIG, proxyServerType=HTTP, password=TESTing31, proxyServerAddress=orrproxy.mphasis.com, proxyServerPort=8080}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/launch - Iteration 1" classname="Test Cases/launch" status="PASSED">
+         <system-out><![CDATA[2017-08-29 16:21:06 - [TEST_CASE][PASSED] - Test Cases/launch - Iteration 1: Test Cases/launch
+
+2017-08-29 16:21:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-29 16:21:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-29 16:21:20 - [TEST_STEP][PASSED] - Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue("Mobile", 2): Reading excel file with source file 'C:\Users\pratiush.pratik\Katalon Studio\TestDesktop\Data Files\TEST.xlsx' and sheet name 'Paytm'
+
+2017-08-29 16:21:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://paytm.com/' successfully
+
+2017-08-29 16:24:19 - [MESSAGE][PASSED] - Navigate to 'https://paytm.com/' successfully
+
+2017-08-29 16:24:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-08-29 16:24:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-08-29 16:24:22 - [TEST_STEP][PASSED] - setText: Text '9884656456' is set on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/input'
+
+2017-08-29 16:24:24 - [MESSAGE][PASSED] - Text '9884656456' is set on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/input'
+
+2017-08-29 16:24:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/div_Fast Forward' is clicked on
+
+2017-08-29 16:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/div_Fast Forward' is clicked on
+
+2017-08-29 16:26:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/button_Proceed to Recharge' is clicked on
+
+2017-08-29 16:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/button_Proceed to Recharge' is clicked on
+
+2017-08-29 16:26:43 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Please enter an amount' is present on page  using regular expression
+
+2017-08-29 16:26:47 - [MESSAGE][PASSED] - Text 'Please enter an amount' is present on page  using regular expression
+
+2017-08-29 16:26:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-08-29 16:26:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/launch - Iteration 2" classname="Test Cases/launch" status="PASSED">
+         <system-out><![CDATA[2017-08-29 16:26:50 - [TEST_CASE][PASSED] - Test Cases/launch - Iteration 2: Test Cases/launch
+
+2017-08-29 16:26:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-29 16:27:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-29 16:27:01 - [TEST_STEP][PASSED] - Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue("Mobile", 2): Reading excel file with source file 'C:\Users\pratiush.pratik\Katalon Studio\TestDesktop\Data Files\TEST.xlsx' and sheet name 'Paytm'
+
+2017-08-29 16:27:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://paytm.com/' successfully
+
+2017-08-29 16:29:42 - [MESSAGE][PASSED] - Navigate to 'https://paytm.com/' successfully
+
+2017-08-29 16:29:42 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-08-29 16:29:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-08-29 16:29:44 - [TEST_STEP][PASSED] - setText: Text '9884656456' is set on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/input'
+
+2017-08-29 16:29:46 - [MESSAGE][PASSED] - Text '9884656456' is set on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/input'
+
+2017-08-29 16:29:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/div_Fast Forward' is clicked on
+
+2017-08-29 16:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/div_Fast Forward' is clicked on
+
+2017-08-29 16:29:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/button_Proceed to Recharge' is clicked on
+
+2017-08-29 16:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/button_Proceed to Recharge' is clicked on
+
+2017-08-29 16:29:49 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Please enter an amount' is present on page  using regular expression
+
+2017-08-29 16:29:53 - [MESSAGE][PASSED] - Text 'Please enter an amount' is present on page  using regular expression
+
+2017-08-29 16:29:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-08-29 16:29:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-08-29 16:21:05 - [TEST_SUITE][PASSED] - Datafile: Test Cases/launch]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

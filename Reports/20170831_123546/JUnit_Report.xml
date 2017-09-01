@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebTest E commerce" time="199" tests="2" failures="0" errors="0">
+   <testsuite name="WebTest E commerce" tests="2" failures="0" errors="0" time="199" timestamp="2017-08-31 12:35:54" hostname="Pratiush.Pratik - LTPBAN252219466.corp.mphasis.com" id="Test Suites/WebTest E commerce">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\WebTest E commerce\\20170831_123546"/>
+         <property name="logFiles" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\WebTest E commerce\\20170831_123546\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Pratiush.Pratik - LTPBAN252219466.corp.mphasis.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.7.2.1"/>
+         <property name="browser" value="Firefox 55.0"/>
+         <property name="hostAddress" value="172.17.58.58"/>
+         <property name="sessionId" value="6d7a8aa5-e577-44f9-ba2a-2c107004a9de"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=MANUAL_CONFIG, proxyServerType=HTTP, password=TESTing31, proxyServerAddress=orrproxy.mphasis.com, proxyServerPort=8080}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/google" classname="Test Cases/google" status="PASSED">
+         <system-out><![CDATA[2017-08-31 12:35:55 - [TEST_CASE][PASSED] - Test Cases/google: Test Cases/google
+
+2017-08-31 12:35:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-31 12:36:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-31 12:36:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.google.co.in/?gws_rd=ssl' successfully
+
+2017-08-31 12:36:54 - [MESSAGE][PASSED] - Navigate to 'https://www.google.co.in/?gws_rd=ssl' successfully
+
+2017-08-31 12:36:54 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-08-31 12:36:55 - [MESSAGE][PASSED] - Current window maximized
+
+2017-08-31 12:36:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Google/input_q' is clicked on
+
+2017-08-31 12:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/input_q' is clicked on
+
+2017-08-31 12:36:56 - [TEST_STEP][PASSED] - sendKeys: Keys 'paytm' sent to object: 'Object Repository/Page_Google/input_q'
+
+2017-08-31 12:36:57 - [MESSAGE][PASSED] - Keys 'paytm' sent to object: 'Object Repository/Page_Google/input_q'
+
+2017-08-31 12:36:57 - [TEST_STEP][PASSED] - submit: The form containing object: 'Object Repository/Page_Google/input_q' is submitted
+
+2017-08-31 12:37:00 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Page_Google/input_q' is submitted
+
+2017-08-31 12:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_paytm - Google Search/a_Paytm.com  Digital  Utility' is clicked on
+
+2017-08-31 12:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_paytm - Google Search/a_Paytm.com  Digital  Utility' is clicked on
+
+2017-08-31 12:37:01 - [TEST_STEP][PASSED] - setText: Text '9620971262' is set on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/input'
+
+2017-08-31 12:37:17 - [MESSAGE][PASSED] - Text '9620971262' is set on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/input'
+
+2017-08-31 12:37:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/button_Proceed to Recharge' is clicked on
+
+2017-08-31 12:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/button_Proceed to Recharge' is clicked on
+
+2017-08-31 12:37:20 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Please enter an amount' is present on page  using regular expression
+
+2017-08-31 12:37:25 - [MESSAGE][PASSED] - Text 'Please enter an amount' is present on page  using regular expression
+
+2017-08-31 12:37:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-08-31 12:37:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/launch" classname="Test Cases/launch" status="PASSED">
+         <system-out><![CDATA[2017-08-31 12:37:29 - [TEST_CASE][PASSED] - Test Cases/launch: Test Cases/launch
+
+2017-08-31 12:37:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-31 12:37:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-31 12:37:45 - [TEST_STEP][PASSED] - Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue("Mobile", 2): Reading excel file with source file 'C:\Users\pratiush.pratik\Katalon Studio\TestDesktop\Data Files\TEST.xlsx' and sheet name 'Paytm'
+
+2017-08-31 12:37:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://paytm.com/' successfully
+
+2017-08-31 12:38:59 - [MESSAGE][PASSED] - Navigate to 'https://paytm.com/' successfully
+
+2017-08-31 12:38:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-08-31 12:39:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-08-31 12:39:00 - [TEST_STEP][PASSED] - setText: Text '9884656456' is set on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/input'
+
+2017-08-31 12:39:01 - [MESSAGE][PASSED] - Text '9884656456' is set on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/input'
+
+2017-08-31 12:39:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/div_Fast Forward' is clicked on
+
+2017-08-31 12:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/div_Fast Forward' is clicked on
+
+2017-08-31 12:39:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/button_Proceed to Recharge' is clicked on
+
+2017-08-31 12:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Paytm.com  Digital  Utility Pa/button_Proceed to Recharge' is clicked on
+
+2017-08-31 12:39:09 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Please enter an amount' is present on page  using regular expression
+
+2017-08-31 12:39:13 - [MESSAGE][PASSED] - Text 'Please enter an amount' is present on page  using regular expression
+
+2017-08-31 12:39:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-08-31 12:39:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-08-31 12:35:54 - [TEST_SUITE][PASSED] - WebTest E commerce: Test Cases/launch]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

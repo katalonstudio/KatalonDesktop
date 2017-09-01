@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ENHANCED</name>
+   <tag></tag>
+   <elementGuidId>3cb9350a-31a4-40dc-b2e3-ef7e64bc6a81</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;bodyWrapper&quot;]/div[@class=&quot;div1366&quot;]/div[@class=&quot;highlight-boxes parbase&quot;]/div[@class=&quot;solutionsWrap&quot;]/div[@class=&quot;col-3&quot;]/h4[1]/p[1]/span[@class=&quot;darkgrey-252c39&quot;]/span[@class=&quot;robotomedium25&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ENHANCED</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>robotomedium25</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebTest" time="84" tests="0" failures="1" errors="0">
+   <testsuite name="WebTest" tests="0" failures="1" errors="0" time="84" timestamp="2017-08-18 13:05:18" hostname="Pratiush.Pratik - LTPBAN252219466.corp.mphasis.com" id="Test Suites/WebTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\WebTest\\20170818_130514"/>
+         <property name="logFiles" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\WebTest\\20170818_130514\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\WebTest\\20170818_130514\\1503041795655.png"/>
+         <property name="hostName" value="Pratiush.Pratik - LTPBAN252219466.corp.mphasis.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.7.2.1"/>
+         <property name="browser" value="Firefox 55.0"/>
+         <property name="hostAddress" value="172.17.57.50"/>
+         <property name="sessionId" value="6320ff18-5918-4a3f-9fac-cefda3a558f0"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=MANUAL_CONFIG, proxyServerType=HTTP, password=TESTing31, proxyServerAddress=orrproxy.mphasis.com, proxyServerPort=8080}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/launch" classname="Test Cases/launch" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2017-08-18 13:05:18 - [TEST_CASE][FAILED] - Test Cases/launch: Test Cases/launch FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2017-08-18 13:05:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-18 13:05:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-18 13:05:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://paytm.com/' successfully
+
+2017-08-18 13:06:13 - [MESSAGE][PASSED] - Navigate to 'https://paytm.com/' successfully
+
+2017-08-18 13:06:13 - [TEST_STEP][PASSED] - setText: Text '9875645453' is set on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/input'
+
+2017-08-18 13:06:35 - [MESSAGE][PASSED] - Text '9875645453' is set on object 'Object Repository/Page_Paytm.com  Digital  Utility Pa/input'
+
+2017-08-18 13:06:35 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2017-08-18 13:06:35 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Paytm.com  Digital  Utility Pa (1)/div__2Dtq _3AUh' does not exist
+
+2017-08-18 13:06:35 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2017-08-18 13:06:37 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\WebTest\\20170818_130514\\1503041795655.png]]]]></system-out>
+         <system-err><![CDATA[2017-08-18 13:05:18 - [TEST_CASE][FAILED] - Test Cases/launch: Test Cases/launch FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-08-18 13:05:18 - [TEST_SUITE][FAILED] - WebTest: Test Cases/launch FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2017-08-18 13:05:18 - [TEST_SUITE][FAILED] - WebTest: Test Cases/launch FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebTest demo app" time="36" tests="1" failures="0" errors="0">
+   <testsuite name="WebTest demo app" tests="1" failures="0" errors="0" time="36" timestamp="2017-08-26 17:32:45" hostname="Pratiush.Pratik - LTPBAN252219466.corp.mphasis.com" id="Test Suites/WebTest demo app">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\WebTest demo app\\20170826_173240"/>
+         <property name="logFiles" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\WebTest demo app\\20170826_173240\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Pratiush.Pratik - LTPBAN252219466.corp.mphasis.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.7.2.1"/>
+         <property name="browser" value="Chrome 60.0.3112.101"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="adefe6e1e292a0713624d8a5e57e78bd"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/katalon" classname="Test Cases/katalon" status="PASSED">
+         <system-out><![CDATA[2017-08-26 17:32:46 - [TEST_CASE][PASSED] - Test Cases/katalon: Test Cases/katalon
+
+2017-08-26 17:32:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-26 17:33:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-26 17:33:00 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-08-26 17:33:02 - [MESSAGE][PASSED] - Current window maximized
+
+2017-08-26 17:33:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-26 17:33:08 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-26 17:33:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/h3_We Care About Your Health' is clicked on
+
+2017-08-26 17:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/h3_We Care About Your Health' is clicked on
+
+2017-08-26 17:33:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2017-08-26 17:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2017-08-26 17:33:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-08-26 17:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-08-26 17:33:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/th_' is clicked on
+
+2017-08-26 17:33:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/th_' is clicked on
+
+2017-08-26 17:33:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/th_' is clicked on
+
+2017-08-26 17:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/th_' is clicked on
+
+2017-08-26 17:33:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/td_26' is clicked on
+
+2017-08-26 17:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/td_26' is clicked on
+
+2017-08-26 17:33:14 - [TEST_STEP][PASSED] - setText: Text 'book appointment' is set on object 'Object Repository/Page_CURA Healthcare Service (2)/textarea_comment'
+
+2017-08-26 17:33:15 - [MESSAGE][PASSED] - Text 'book appointment' is set on object 'Object Repository/Page_CURA Healthcare Service (2)/textarea_comment'
+
+2017-08-26 17:33:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/button_Book Appointment' is clicked on
+
+2017-08-26 17:33:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/button_Book Appointment' is clicked on
+
+2017-08-26 17:33:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (3)/h2_Appointment Confirmation' is clicked on
+
+2017-08-26 17:33:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (3)/h2_Appointment Confirmation' is clicked on
+
+2017-08-26 17:33:17 - [TEST_STEP][PASSED] - rightClick: Object: 'Object Repository/Page_CURA Healthcare Service (3)/h2_Appointment Confirmation' is right clicked on
+
+2017-08-26 17:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (3)/h2_Appointment Confirmation' is right clicked on
+
+2017-08-26 17:33:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (3)/h2_Appointment Confirmation' is clicked on
+
+2017-08-26 17:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (3)/h2_Appointment Confirmation' is clicked on
+
+2017-08-26 17:33:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (3)/a_Go to Homepage' is clicked on
+
+2017-08-26 17:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (3)/a_Go to Homepage' is clicked on
+
+2017-08-26 17:33:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_menu-toggle' is clicked on
+
+2017-08-26 17:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_menu-toggle' is clicked on
+
+2017-08-26 17:33:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+2017-08-26 17:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+2017-08-26 17:33:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-08-26 17:33:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-08-26 17:32:45 - [TEST_SUITE][PASSED] - WebTest demo app: Test Cases/katalon]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

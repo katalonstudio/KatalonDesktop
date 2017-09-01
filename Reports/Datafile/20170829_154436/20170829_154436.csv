@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Datafile,,from other\r\n files,2017-08-29 15:44:38,2017-08-29 15:44:40,1.544s,ERROR
+,,,,,,
+Test Cases/launch - Iteration 1,,launch paytm,2017-08-29 15:44:39,2017-08-29 15:44:40,0.741s,ERROR
+,,,,,,
+Test Cases/launch - Iteration 2,,launch paytm,2017-08-29 15:44:40,2017-08-29 15:44:40,0.267s,ERROR

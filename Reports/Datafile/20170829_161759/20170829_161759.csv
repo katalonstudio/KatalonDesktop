@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Datafile,Firefox 55.0,from other\r\n files,2017-08-29 16:18:01,2017-08-29 16:18:34,32.755s,ERROR
+,,,,,,
+Test Cases/launch - Iteration 1,Firefox 55.0,launch paytm,2017-08-29 16:18:02,2017-08-29 16:18:22,20.272s,ERROR
+openBrowser,Firefox 55.0,,2017-08-29 16:18:02,2017-08-29 16:18:21,18.026s,PASSED
+"Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue(""Mobile"", 2)",Firefox 55.0,,2017-08-29 16:18:21,2017-08-29 16:18:22,1.222s,PASSED
+maximizeWindow,Firefox 55.0,,2017-08-29 16:18:22,2017-08-29 16:18:22,0.005s,PASSED
+,,,,,,
+Test Cases/launch - Iteration 2,Firefox 55.0,launch paytm,2017-08-29 16:18:22,2017-08-29 16:18:33,10.658s,ERROR
+openBrowser,Firefox 55.0,,2017-08-29 16:18:22,2017-08-29 16:18:32,10.466s,PASSED
+"Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue(""Mobile"", 2)",Firefox 55.0,,2017-08-29 16:18:32,2017-08-29 16:18:33,0.084s,PASSED
+maximizeWindow,Firefox 55.0,,2017-08-29 16:18:33,2017-08-29 16:18:33,0.000s,PASSED

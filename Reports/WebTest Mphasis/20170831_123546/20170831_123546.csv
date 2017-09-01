@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WebTest Mphasis,JBrowser (headless),,2017-08-31 12:35:53,2017-08-31 12:37:55,2m - 1.477s,FAILED
+,,,,,,
+Test Cases/mphasis,JBrowser (headless),mphasis.com,2017-08-31 12:35:54,2017-08-31 12:37:15,1m - 21.013s,FAILED
+openBrowser,JBrowser (headless),,2017-08-31 12:35:58,2017-08-31 12:36:16,18.401s,PASSED
+maximizeWindow,JBrowser (headless),,2017-08-31 12:36:16,2017-08-31 12:36:17,0.155s,PASSED
+navigateToUrl,JBrowser (headless),,2017-08-31 12:36:17,2017-08-31 12:36:26,9.262s,PASSED
+mouseOver,JBrowser (headless),,2017-08-31 12:36:26,2017-08-31 12:36:39,13.603s,PASSED
+click,JBrowser (headless),,2017-08-31 12:36:39,2017-08-31 12:37:15,35.906s,FAILED
+,,,,,,
+Test Cases/mphasis_fail,JBrowser (headless),fail test case,2017-08-31 12:37:16,2017-08-31 12:37:53,37.797s,FAILED
+openBrowser,JBrowser (headless),,2017-08-31 12:37:16,2017-08-31 12:37:41,25.424s,PASSED
+navigateToUrl,JBrowser (headless),,2017-08-31 12:37:41,2017-08-31 12:37:52,10.560s,PASSED
+click,JBrowser (headless),,2017-08-31 12:37:52,2017-08-31 12:37:53,1.258s,FAILED

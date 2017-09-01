@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WebTest E commerce,Firefox 55.0,,2017-08-31 12:48:32,2017-08-31 12:52:40,4m - 7.410s,PASSED
+,,,,,,
+Test Cases/google,Firefox 55.0,,2017-08-31 12:48:33,2017-08-31 12:52:00,3m - 26.345s,PASSED
+openBrowser,Firefox 55.0,,2017-08-31 12:48:35,2017-08-31 12:49:19,43.647s,PASSED
+navigateToUrl,Firefox 55.0,,2017-08-31 12:49:19,2017-08-31 12:49:25,6.307s,PASSED
+maximizeWindow,Firefox 55.0,,2017-08-31 12:49:25,2017-08-31 12:49:25,0.184s,PASSED
+click,Firefox 55.0,,2017-08-31 12:49:25,2017-08-31 12:49:26,0.601s,PASSED
+sendKeys,Firefox 55.0,,2017-08-31 12:49:26,2017-08-31 12:49:27,1.149s,PASSED
+submit,Firefox 55.0,,2017-08-31 12:49:27,2017-08-31 12:50:35,1m - 7.691s,PASSED
+click,Firefox 55.0,,2017-08-31 12:50:35,2017-08-31 12:50:35,0.289s,PASSED
+setText,Firefox 55.0,,2017-08-31 12:50:35,2017-08-31 12:51:52,1m - 16.707s,PASSED
+click,Firefox 55.0,,2017-08-31 12:51:52,2017-08-31 12:51:53,1.408s,PASSED
+verifyTextPresent,Firefox 55.0,,2017-08-31 12:51:53,2017-08-31 12:51:57,4.219s,PASSED
+closeBrowser,Firefox 55.0,,2017-08-31 12:51:57,2017-08-31 12:52:00,2.360s,PASSED
+,,,,,,
+Test Cases/launch,Firefox 55.0,launch paytm,2017-08-31 12:52:00,2017-08-31 12:52:40,39.920s,PASSED
+openBrowser,Firefox 55.0,,2017-08-31 12:52:00,2017-08-31 12:52:10,9.686s,PASSED
+"Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue(""Mobile"", 2)",Firefox 55.0,,2017-08-31 12:52:10,2017-08-31 12:52:14,4.483s,PASSED
+navigateToUrl,Firefox 55.0,,2017-08-31 12:52:14,2017-08-31 12:52:17,3.123s,PASSED
+waitForPageLoad,Firefox 55.0,,2017-08-31 12:52:17,2017-08-31 12:52:21,3.581s,PASSED
+setText,Firefox 55.0,,2017-08-31 12:52:21,2017-08-31 12:52:23,2.406s,PASSED
+click,Firefox 55.0,,2017-08-31 12:52:23,2017-08-31 12:52:32,8.339s,PASSED
+click,Firefox 55.0,,2017-08-31 12:52:32,2017-08-31 12:52:32,0.623s,PASSED
+verifyTextPresent,Firefox 55.0,,2017-08-31 12:52:32,2017-08-31 12:52:37,4.273s,PASSED
+closeBrowser,Firefox 55.0,,2017-08-31 12:52:37,2017-08-31 12:52:40,3.043s,PASSED

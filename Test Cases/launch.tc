@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>launch paytm</description>
+   <name>launch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1023a1a5-3ade-47b8-8d1b-93bcf4da6687</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3b542160-3a84-4a5b-81d7-50813c66260e</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

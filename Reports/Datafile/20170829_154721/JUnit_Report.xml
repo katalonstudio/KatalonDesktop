@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Datafile" time="1" tests="0" failures="0" errors="2">
+   <testsuite name="Datafile" tests="0" failures="0" errors="2" time="1" timestamp="2017-08-29 15:47:24" hostname="Pratiush.Pratik - LTPBAN252219466.corp.mphasis.com" id="Test Suites/Datafile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\Datafile\\20170829_154721"/>
+         <property name="logFiles" value="C:\\Users\\pratiush.pratik\\Katalon Studio\\TestDesktop\\Reports\\Datafile\\20170829_154721\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Pratiush.Pratik - LTPBAN252219466.corp.mphasis.com"/>
+         <property name="hostAddress" value="172.17.58.83"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.7.2.1"/>
+      </properties>
+      <testcase name="Test Cases/launch - Iteration 1" classname="Test Cases/launch" status="ERROR">
+         <error type="ERROR" message="Test Cases/launch FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pratiush.pratik/Katalon%20Studio/TestDesktop/Scripts/launch/Script1502951140733.groovy: 24: Modifier 'public' not allowed here.
+ @ line 24, column 1.
+   public Mob= findTestData(&quot;test&quot;).getValue(&quot;Mobile&quot;, 2)
+   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2017-08-29 15:47:24 - [TEST_CASE][ERROR] - Test Cases/launch - Iteration 1: Test Cases/launch FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pratiush.pratik/Katalon%20Studio/TestDesktop/Scripts/launch/Script1502951140733.groovy: 24: Modifier 'public' not allowed here.
+ @ line 24, column 1.
+   public Mob= findTestData("test").getValue("Mobile", 2)
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2017-08-29 15:47:24 - [TEST_CASE][ERROR] - Test Cases/launch - Iteration 1: Test Cases/launch FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pratiush.pratik/Katalon%20Studio/TestDesktop/Scripts/launch/Script1502951140733.groovy: 24: Modifier 'public' not allowed here.
+ @ line 24, column 1.
+   public Mob= findTestData("test").getValue("Mobile", 2)
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/launch - Iteration 2" classname="Test Cases/launch" status="ERROR">
+         <error type="ERROR" message="Test Cases/launch FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pratiush.pratik/Katalon%20Studio/TestDesktop/Scripts/launch/Script1502951140733.groovy: 24: Modifier 'public' not allowed here.
+ @ line 24, column 1.
+   public Mob= findTestData(&quot;test&quot;).getValue(&quot;Mobile&quot;, 2)
+   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2017-08-29 15:47:25 - [TEST_CASE][ERROR] - Test Cases/launch - Iteration 2: Test Cases/launch FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pratiush.pratik/Katalon%20Studio/TestDesktop/Scripts/launch/Script1502951140733.groovy: 24: Modifier 'public' not allowed here.
+ @ line 24, column 1.
+   public Mob= findTestData("test").getValue("Mobile", 2)
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2017-08-29 15:47:25 - [TEST_CASE][ERROR] - Test Cases/launch - Iteration 2: Test Cases/launch FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pratiush.pratik/Katalon%20Studio/TestDesktop/Scripts/launch/Script1502951140733.groovy: 24: Modifier 'public' not allowed here.
+ @ line 24, column 1.
+   public Mob= findTestData("test").getValue("Mobile", 2)
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-08-29 15:47:24 - [TEST_SUITE][ERROR] - Datafile: Test Cases/launch FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pratiush.pratik/Katalon%20Studio/TestDesktop/Scripts/launch/Script1502951140733.groovy: 24: Modifier 'public' not allowed here.
+ @ line 24, column 1.
+   public Mob= findTestData("test").getValue("Mobile", 2)
+   ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2017-08-29 15:47:24 - [TEST_SUITE][ERROR] - Datafile: Test Cases/launch FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pratiush.pratik/Katalon%20Studio/TestDesktop/Scripts/launch/Script1502951140733.groovy: 24: Modifier 'public' not allowed here.
+ @ line 24, column 1.
+   public Mob= findTestData("test").getValue("Mobile", 2)
+   ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

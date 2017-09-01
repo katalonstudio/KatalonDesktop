@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Datafile,Chrome 60.0.3112.101,from other\r\n files,2017-08-29 16:17:24,2017-08-29 16:17:41,16.995s,ERROR
+,,,,,,
+Test Cases/launch - Iteration 1,Chrome 60.0.3112.101,launch paytm,2017-08-29 16:17:24,2017-08-29 16:17:32,7.194s,ERROR
+openBrowser,Chrome 60.0.3112.101,,2017-08-29 16:17:25,2017-08-29 16:17:30,5.280s,PASSED
+"Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue(""Mobile"", 2)",Chrome 60.0.3112.101,,2017-08-29 16:17:30,2017-08-29 16:17:31,0.982s,PASSED
+maximizeWindow,Chrome 60.0.3112.101,,2017-08-29 16:17:31,2017-08-29 16:17:31,0.033s,PASSED
+,,,,,,
+Test Cases/launch - Iteration 2,Chrome 60.0.3112.101,launch paytm,2017-08-29 16:17:32,2017-08-29 16:17:40,7.824s,ERROR
+openBrowser,Chrome 60.0.3112.101,,2017-08-29 16:17:32,2017-08-29 16:17:39,7.738s,PASSED
+"Statement - Mob = com.kms.katalon.core.testdata.TestDataFactory.findTestData(test).getValue(""Mobile"", 2)",Chrome 60.0.3112.101,,2017-08-29 16:17:39,2017-08-29 16:17:40,0.049s,PASSED
+maximizeWindow,Chrome 60.0.3112.101,,2017-08-29 16:17:40,2017-08-29 16:17:40,0.000s,PASSED
